@@ -1,6 +1,6 @@
 [project]
 name = "template"
-description = "a simple, fast, and powerful parcel simulator"
+description = "a simple, fast, and powerful template"
 readme = "readme"
 requires-python = ">=3.7"
 license = {file = "license"}
@@ -12,11 +12,9 @@ classifiers = [
     "Programming Language :: Python :: 3 :: Only",
     "License :: OSI Approved :: MIT License",
     "Intended Audience :: Science/Research",
-    "Topic :: Scientific/Engineering :: Atmospheric Science",
 ]
 keywords = [
-    "atmospheric", "particles", "climate", "aerosol", "particulate",
-    "parcel", "clouds", "template",
+    "template",
 ]
 
 dependencies = [""]
@@ -32,7 +30,7 @@ repository = "https://github.com/uncscode/template"
 dev = [
     "pylint", "pytest", "autopep8", "jupyterlab", "pytype",
     "typing", "build", "flake8", "jupyter-book", "ghp-import",
-    "matplotlib",
+    "matplotlib", "numpy", "scipy",
 ]
 
 [build-system]
